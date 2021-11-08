@@ -33,14 +33,14 @@
           style="display: flex; justify-content: space-between"
         >
           <span>{{ visada1.label }}</span>
-          <span>{{ visada1.distance.toFixed(2) }} m</span>
+          <span>{{ visada1.distance.toFixed(2) }} km</span>
         </div>
         <div
           v-if="visada2"
           style="display: flex; justify-content: space-between"
         >
           <span>{{ visada2.label }}</span>
-          <span>{{ visada2.distance.toFixed(2) }} m</span>
+          <span>{{ visada2.distance.toFixed(2) }} km</span>
         </div>
         <div
           v-if="visada1 && visada2"
